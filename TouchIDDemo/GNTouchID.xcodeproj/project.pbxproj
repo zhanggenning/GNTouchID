@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC557D11C4C7B680028AC5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC557D01C4C7B680028AC5B /* main.m */; };
+		2FC557D41C4C7B680028AC5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC557D31C4C7B680028AC5B /* AppDelegate.m */; };
+		2FC557D71C4C7B680028AC5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC557D61C4C7B680028AC5B /* ViewController.m */; };
+		2FC557DA1C4C7B680028AC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC557D81C4C7B680028AC5B /* Main.storyboard */; };
+		2FC557DC1C4C7B680028AC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC557DB1C4C7B680028AC5B /* Assets.xcassets */; };
+		2FC557DF1C4C7B680028AC5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC557DD1C4C7B680028AC5B /* LaunchScreen.storyboard */; };
+		2FC557E81C4C7BA90028AC5B /* WJTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC557E71C4C7BA90028AC5B /* WJTouchID.m */; };
+		2FC557EE1C4C88800028AC5B /* GNTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC557ED1C4C88800028AC5B /* GNTouchID.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FC557CC1C4C7B680028AC5B /* GNTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC557D01C4C7B680028AC5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FC557D21C4C7B680028AC5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FC557D31C4C7B680028AC5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FC557D51C4C7B680028AC5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FC557D61C4C7B680028AC5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FC557D91C4C7B680028AC5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC557DB1C4C7B680028AC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC557DE1C4C7B680028AC5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC557E01C4C7B680028AC5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC557E61C4C7BA90028AC5B /* WJTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTouchID.h; sourceTree = "<group>"; };
+		2FC557E71C4C7BA90028AC5B /* WJTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTouchID.m; sourceTree = "<group>"; };
+		2FC557EC1C4C88800028AC5B /* GNTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNTouchID.h; sourceTree = "<group>"; };
+		2FC557ED1C4C88800028AC5B /* GNTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNTouchID.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC557C91C4C7B680028AC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC557C31C4C7B680028AC5B = {
+			isa = PBXGroup;
+			children = (
+				2FC557CE1C4C7B680028AC5B /* GNTouchID */,
+				2FC557CD1C4C7B680028AC5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC557CD1C4C7B680028AC5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC557CC1C4C7B680028AC5B /* GNTouchID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC557CE1C4C7B680028AC5B /* GNTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				2FC557D21C4C7B680028AC5B /* AppDelegate.h */,
+				2FC557D31C4C7B680028AC5B /* AppDelegate.m */,
+				2FC557D51C4C7B680028AC5B /* ViewController.h */,
+				2FC557D61C4C7B680028AC5B /* ViewController.m */,
+				2FC557D81C4C7B680028AC5B /* Main.storyboard */,
+				2FC557EC1C4C88800028AC5B /* GNTouchID.h */,
+				2FC557ED1C4C88800028AC5B /* GNTouchID.m */,
+				2FC557E61C4C7BA90028AC5B /* WJTouchID.h */,
+				2FC557E71C4C7BA90028AC5B /* WJTouchID.m */,
+				2FC557DB1C4C7B680028AC5B /* Assets.xcassets */,
+				2FC557DD1C4C7B680028AC5B /* LaunchScreen.storyboard */,
+				2FC557E01C4C7B680028AC5B /* Info.plist */,
+				2FC557CF1C4C7B680028AC5B /* Supporting Files */,
+			);
+			path = GNTouchID;
+			sourceTree = "<group>";
+		};
+		2FC557CF1C4C7B680028AC5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC557D01C4C7B680028AC5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC557CB1C4C7B680028AC5B /* GNTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC557E31C4C7B680028AC5B /* Build configuration list for PBXNativeTarget "GNTouchID" */;
+			buildPhases = (
+				2FC557C81C4C7B680028AC5B /* Sources */,
+				2FC557C91C4C7B680028AC5B /* Frameworks */,
+				2FC557CA1C4C7B680028AC5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNTouchID;
+			productName = GNTouchID;
+			productReference = 2FC557CC1C4C7B680028AC5B /* GNTouchID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC557C41C4C7B680028AC5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhanggenning;
+				TargetAttributes = {
+					2FC557CB1C4C7B680028AC5B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2FC557C71C4C7B680028AC5B /* Build configuration list for PBXProject "GNTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC557C31C4C7B680028AC5B;
+			productRefGroup = 2FC557CD1C4C7B680028AC5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC557CB1C4C7B680028AC5B /* GNTouchID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC557CA1C4C7B680028AC5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC557DF1C4C7B680028AC5B /* LaunchScreen.storyboard in Resources */,
+				2FC557DC1C4C7B680028AC5B /* Assets.xcassets in Resources */,
+				2FC557DA1C4C7B680028AC5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC557C81C4C7B680028AC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC557D71C4C7B680028AC5B /* ViewController.m in Sources */,
+				2FC557D41C4C7B680028AC5B /* AppDelegate.m in Sources */,
+				2FC557D11C4C7B680028AC5B /* main.m in Sources */,
+				2FC557EE1C4C88800028AC5B /* GNTouchID.m in Sources */,
+				2FC557E81C4C7BA90028AC5B /* WJTouchID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FC557D81C4C7B680028AC5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC557D91C4C7B680028AC5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FC557DD1C4C7B680028AC5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC557DE1C4C7B680028AC5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC557E11C4C7B680028AC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC557E21C4C7B680028AC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC557E41C4C7B680028AC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GNTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanggenning.com.GNTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC557E51C4C7B680028AC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GNTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhanggenning.com.GNTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC557C71C4C7B680028AC5B /* Build configuration list for PBXProject "GNTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC557E11C4C7B680028AC5B /* Debug */,
+				2FC557E21C4C7B680028AC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC557E31C4C7B680028AC5B /* Build configuration list for PBXNativeTarget "GNTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC557E41C4C7B680028AC5B /* Debug */,
+				2FC557E51C4C7B680028AC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC557C41C4C7B680028AC5B /* Project object */;
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vaf-pL-XY3">
+                                <rect key="frame" x="263" y="262" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="cz1-ZD-QT0"/>
+                                    <constraint firstAttribute="width" constant="75" id="k33-jP-krg"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="fingerprint"/>
+                                <connections>
+                                    <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TSf-jt-54h"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8BE-1A-LHV">
+                                <rect key="frame" x="20" y="84" width="560" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="fQr-Dw-1zB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8BE-1A-LHV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7Xu-1H-ccA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8BE-1A-LHV" secondAttribute="trailing" id="Lfd-KO-bSE"/>
+                            <constraint firstItem="Vaf-pL-XY3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nbu-Xt-upy"/>
+                            <constraint firstItem="Vaf-pL-XY3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tv8-e9-GbF"/>
+                            <constraint firstItem="8BE-1A-LHV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="lNg-ck-hM5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Notice" destination="8BE-1A-LHV" id="WkB-qz-e6M"/>
+                        <outlet property="notice" destination="8BE-1A-LHV" id="eBX-Uc-rNj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="418"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fingerprint" width="75" height="75"/>
+    </resources>
+</document>
